@@ -1,6 +1,18 @@
-# ErfanTest
+# MEANTest
 
-Be sure to run npm install and ensure you have MongoDB installed and are running mongod somewhere before attempting to run node server
+### Step 1
+Create a presentable UI to the user to add, remove, update, and delete series on a single-page application.
+
+### Step 2
+Update the existing code to use Mongoose as the database driver instead of MongoClient [Mongoose](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
+
+### Step 3
+Develop schemas to represent your data (Object Data Model)
+
+The overall goal is to demonstrate your knowledge on basic CRUD operations through the use of two-way data binding, observables, promises, Angular directives, and the use of MongoDB.
+
+Be sure to run npm install and ensure you have MongoDB installed and are running mongod somewhere before attempting to run `node server`
+Ex. `mongod --dbpath="data"`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
 
